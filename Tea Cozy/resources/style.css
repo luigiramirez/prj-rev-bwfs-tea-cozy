@@ -1,0 +1,78 @@
+/* Header */
+
+header{
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+}
+
+.logo img{
+  height: 50px;
+  padding-left: 10px;
+}
+
+header nav {
+  padding-left: 855px;
+  display: flex-end;
+}
+
+a {
+  color: white;
+}
+
+
+.content{
+  weight: 1200px;
+  height: 2500px;
+  background-color: black;
+}
+/* first part*/
+
+.imagen-especies {
+  background-image: url("./images/background.jpg");
+  height: 700px;
+  weight: 1200px;
+}
+
+h2 {
+margin-left: 600px
+top: auto;
+color: white;
+}
+
+h4{
+  color: white;
+  location: center;
+}
+
+.imagenes-cafe img{
+  weight:300px;
+  height: 200px;
+  display:inline-flex;
+}
+
+.imagen-fondo{
+  background-image: url("./images/locations.jpg");
+  height: 500px;
+}
+
+.locations{
+
+background-color: black;
+font-family: Helvetica;
+color: white;
+display: inline-flex;
+}
+
+.footer {
+  font-family: Helvetica;
+  color: white;
+}
